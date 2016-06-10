@@ -1,18 +1,27 @@
 package app.hellotone.web.model;
 
 public class User {
+	private int stateCode = 0;
+
 	private int id;
 	private String nickName;
 	private String email;
 	private String password;
-	private boolean gender;
+	private String gender;
 	private String country;
 	private String chineseLevel;
 	private String headPicture;
 	private int articleNum;
 	private int postNum;
 	private int level;
-	private int experience;
+	private int experience;	
+	
+	public int getStateCode() {
+		return stateCode;
+	}
+	public void setStateCode(int stateCode) {
+		this.stateCode = stateCode;
+	}
 	public int getId() {
 		return id;
 	}
@@ -37,10 +46,10 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public boolean isGender() {
+	public String isGender() {
 		return gender;
 	}
-	public void setGender(boolean gender) {
+	public void setGender(String gender) {
 		this.gender = gender;
 	}
 	public String getCountry() {

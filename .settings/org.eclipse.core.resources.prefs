@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+encoding//src/app/hellotone/web/dao/PracticeCategroyDao.java=UTF-8
+encoding//src/app/hellotone/web/dao/SigninDao.java=UTF-8
 encoding//src/app/hellotone/web/dao/SqlManager.java=UTF-8
+encoding//src/app/hellotone/web/test/PracticeCategoryTest.java=UTF-8
+encoding//src/app/hellotone/web/test/SigninDaoTest.java=UTF-8

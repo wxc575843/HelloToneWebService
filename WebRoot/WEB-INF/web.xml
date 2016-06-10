@@ -19,6 +19,20 @@
     <servlet-name>test</servlet-name>
     <servlet-class>app.hellotone.web.servlet.test</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PracticeCategroyServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.PracticeCategroyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterSevlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.RegisterSevlet</servlet-class>
+  </servlet>
+
+
 
 
   <servlet-mapping>
@@ -32,5 +46,13 @@
   <servlet-mapping>
     <servlet-name>test</servlet-name>
     <url-pattern>/servlet/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PracticeCategroyServlet</servlet-name>
+    <url-pattern>/servlet/PracticeCategroyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterSevlet</servlet-name>
+    <url-pattern>/servlet/RegisterSevlet</url-pattern>
   </servlet-mapping>
 </web-app>
