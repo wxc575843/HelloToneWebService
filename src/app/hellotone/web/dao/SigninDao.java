@@ -17,13 +17,14 @@ public class SigninDao {
 	
 	public User signIn(String username, String password) throws SQLException{
 		boolean success = false;
-		this.sql = "select * from User where Email=? and Password=?";
+		this.sql = "select * from UserFull where Email=? and Password=?";
 		Object[] params = new Object[]{username,password};
 		User user = new User();
 		manager.connectDB();
 		rs=manager.executeQuery(sql, params);
 		if(rs.next()) {
 			user.setStateCode(1);
+			user.setId(Integer.parseInt(rs.getString("ID")));
 			user.setNickName(rs.getString("Nickname"));
 			user.setEmail(rs.getString("Email"));
 			user.setGender(rs.getString("Gender"));

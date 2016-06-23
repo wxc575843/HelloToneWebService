@@ -22,10 +22,11 @@ public class SigninDaoTest {
 	@Test
 	public void testSignIn() throws SQLException{
 		User user;
-		user = userDao.signIn("zyt@ecnu.edu.cn", "hellotone");
+		user = userDao.signIn("zyt@ecnu.edu.cn", "h");
 		if(user.getStateCode()==1){
 			System.out.println("success");
 			System.out.println(user.getChineseLevel());
+			System.out.println(user.getArticleNum());
 		}
 		else System.out.println("fail");
 	}

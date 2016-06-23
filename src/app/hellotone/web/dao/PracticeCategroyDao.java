@@ -18,7 +18,7 @@ public class PracticeCategroyDao {
 	}
 	public List<PracticeCategroy> getCategroy() throws SQLException{
 		List<PracticeCategroy> practiceCategroys = new ArrayList<PracticeCategroy>();
-		this.sql = "select 类别 class from Record";
+		this.sql = "select distinct Class class from Record";
 		manager.connectDB();
 		this.rs = manager.executeQuery(this.sql, null);
 		while(rs.next()){

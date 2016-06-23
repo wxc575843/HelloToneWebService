@@ -1,6 +1,12 @@
 eclipse.preferences.version=1
+encoding//WebRoot/admin.js=UTF-8
+encoding//WebRoot/index.jsp=UTF-8
 encoding//src/app/hellotone/web/dao/PracticeCategroyDao.java=UTF-8
+encoding//src/app/hellotone/web/dao/RecordDao.java=UTF-8
 encoding//src/app/hellotone/web/dao/SigninDao.java=UTF-8
 encoding//src/app/hellotone/web/dao/SqlManager.java=UTF-8
 encoding//src/app/hellotone/web/test/PracticeCategoryTest.java=UTF-8
 encoding//src/app/hellotone/web/test/SigninDaoTest.java=UTF-8
+encoding//src/web/admin/dao/AdminDataDao.java=UTF-8
+encoding//src/web/admin/servlet/AdminLoginServlet.java=UTF-8
+encoding//src/web/admin/servlet/ModifyArticleServlet.java=UTF-8

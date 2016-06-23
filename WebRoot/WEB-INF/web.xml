@@ -31,6 +31,167 @@
     <servlet-name>RegisterSevlet</servlet-name>
     <servlet-class>app.hellotone.web.servlet.RegisterSevlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommunityNewsServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.CommunityNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommunityTopNewsServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.CommunityTopNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>web.admin.servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminDataServlet</servlet-name>
+    <servlet-class>web.admin.servlet.AdminDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUserServelt</servlet-name>
+    <servlet-class>web.admin.servlet.AdminUserServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminRecordServlet</servlet-name>
+    <servlet-class>web.admin.servlet.AdminRecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminArticleServlet</servlet-name>
+    <servlet-class>web.admin.servlet.AdminArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteArticleServlet</servlet-name>
+    <servlet-class>web.admin.servlet.DeleteArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyArticleServlet</servlet-name>
+    <servlet-class>web.admin.servlet.ModifyArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminAddArticleServlet</servlet-name>
+    <servlet-class>web.admin.servlet.AdminAddArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NicknameModifyServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.NicknameModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyPasswordServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.ModifyPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LikeArticleServlt</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.LikeArticleServlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LikeDao</servlet-name>
+    <servlet-class>app.hellotone.web.dao.LikeDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LikeArticleListServlt</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.LikeArticleListServlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MoreNewsServlt</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.MoreNewsServlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordListServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.RecordListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordLikeServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.RecordLikeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordLikeListServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.RecordLikeListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCommentListServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.GetCommentListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCommentServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.AddCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FavouriteArticleServlt</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.FavouriteArticleServlt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LikeArticleServlet</servlet-name>
+    <servlet-class>app.hellotone.web.servlet.LikeArticleServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -54,5 +215,93 @@
   <servlet-mapping>
     <servlet-name>RegisterSevlet</servlet-name>
     <url-pattern>/servlet/RegisterSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommunityNewsServlet</servlet-name>
+    <url-pattern>/servlet/CommunityNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommunityTopNewsServlet</servlet-name>
+    <url-pattern>/servlet/CommunityTopNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/servlet/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDataServlet</servlet-name>
+    <url-pattern>/servlet/AdminDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUserServelt</servlet-name>
+    <url-pattern>/servlet/AdminUserServelt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminRecordServlet</servlet-name>
+    <url-pattern>/servlet/AdminRecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminArticleServlet</servlet-name>
+    <url-pattern>/servlet/AdminArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteArticleServlet</servlet-name>
+    <url-pattern>/servlet/DeleteArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyArticleServlet</servlet-name>
+    <url-pattern>/servlet/ModifyArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddArticleServlet</servlet-name>
+    <url-pattern>/servlet/AdminAddArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NicknameModifyServlet</servlet-name>
+    <url-pattern>/servlet/NicknameModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyPasswordServlet</servlet-name>
+    <url-pattern>/servlet/ModifyPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LikeDao</servlet-name>
+    <url-pattern>/servlet/LikeDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LikeArticleListServlt</servlet-name>
+    <url-pattern>/servlet/LikeArticleListServlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreNewsServlt</servlet-name>
+    <url-pattern>/servlet/MoreNewsServlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordListServlet</servlet-name>
+    <url-pattern>/servlet/RecordListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordLikeServlet</servlet-name>
+    <url-pattern>/servlet/RecordLikeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordLikeListServlet</servlet-name>
+    <url-pattern>/servlet/RecordLikeListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCommentListServlet</servlet-name>
+    <url-pattern>/servlet/GetCommentListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCommentServlet</servlet-name>
+    <url-pattern>/servlet/AddCommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FavouriteArticleServlt</servlet-name>
+    <url-pattern>/servlet/FavouriteArticleServlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LikeArticleServlet</servlet-name>
+    <url-pattern>/servlet/LikeArticleServlet</url-pattern>
   </servlet-mapping>
 </web-app>

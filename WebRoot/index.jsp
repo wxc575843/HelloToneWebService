@@ -1,4 +1,5 @@
-<%@ page language="java" import="java.util.*" pageEncoding="US-ASCII"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -21,6 +22,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    This is my JSP page. <br>
+    <form action="${pageContext.request.contextPath }/servlet/AdminLoginServlet" method="post">
+    用户名：<input id = "user" name="userName">
+    密码 ：<input id = "password" name ="password" type="password">
+    <input type="submit" value="login">
+    <div style="color:red;">${error_msg }</div>
+    </form>
   </body>
 </html>
