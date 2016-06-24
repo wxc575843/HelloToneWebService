@@ -104,4 +104,23 @@ public class RecordDao {
 		manager.closeDB();
 		return b;
 	}
+	
+	public boolean learn(String userId,String recordId) throws SQLException {
+		boolean b = false;
+		sql = "select * from User_Record_Learn where UserID=? and RecordID=?";
+		
+		Object[] params = {userId,recordId};
+		Object[] params2={userId};
+		manager.connectDB();
+		rs = manager.executeQuery(sql, params);
+		if (rs.next()) {
+			b=true;
+		} 
+		sql="insert into User_Record_Learn values(?,?,now(),0)";
+		manager.executeUpdate(sql, params);
+		sql="update User set ULevel=Experience/100 where ID=?";
+		manager.executeUpdate(sql, params2);
+		manager.closeDB();
+		return b;
+	}
 }
